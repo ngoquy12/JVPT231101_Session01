@@ -1,0 +1,18 @@
+- Trên trình duyệt hỗ trợ một tool (công cụ) giúp chúng ta trong quá trình 
+phát triển phần mềm (chorn dev tool)
+
+- HTML: gồm 2 thẻ quan trọng:
+  + inline (nội tuyến)
+  + block (khối)
+    + Diện tích sẽ chiếm 100% chiều dài của màn hình hoặc phạm vi mà nó chiếm
+    + Phần nội dung sẽ phụ thuộc vào nội dung của thẻ
+    + Các thẻ sẽ được sắp xếp theo chiều dọc 
+
+- Từ h1 đến h6 là các thẻ liên quan đến tiêu đề của trang web
+  + Trong một trang thì nên chỉ có 1 đến 2 thẻ h1
+  + Hay dùng để xác định nội dung chính của trang đó
+
+SEO: 
+- Cách để chuyển một thẻ từ thẻ inline thành thẻ block và từ thẻ block thành thẻ inline
+  + Cách 1: Bọc một hoặc nhiều thẻ block ở bên ngoài. Tuy nhiên diện tích của thẻ inline đó không bị thay đổi
+  + Cách 2: Trong thuộc tính style của thẻ, sử dụng display="block"
